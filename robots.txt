@@ -1,0 +1,13 @@
+# robots.txt for Canada Home Appliance Repair website
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow search engines to crawl all public pages
+Allow: /
+
+# Sitemap location
+Sitemap: http://completeappliance.net/sitemap.xml
